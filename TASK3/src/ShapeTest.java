@@ -2,30 +2,30 @@ public class ShapeTest {
     public static void main(String[] args) {
         ShapeFactory shapeFactory = new ShapeFactory();
 
+        System.out.println("Square:");
         Shape square = shapeFactory.getShape("SQUARE");
         if (square != null) {
-            System.out.println("Square:");
             square.draw();
             System.out.println();
         }
 
+        System.out.println("Circle:");
         Shape circle = shapeFactory.getShape("CIRCLE");
         if (circle != null) {
-            System.out.println("Circle:");
             circle.draw();
             System.out.println();
         }
 
+        System.out.println("Triangle:");
         Shape triangle = shapeFactory.getShape("TRIANGLE");
         if (triangle != null) {
-            System.out.println("Triangle:");
             triangle.draw();
             System.out.println();
         }
 
+        System.out.println("Rectangle:");
         Shape rectangle = shapeFactory.getShape("RECTANGLE");
         if (rectangle != null) {
-            System.out.println("Rectangle:");
             rectangle.draw();
             System.out.println();
         }
